@@ -1,0 +1,7 @@
+function changeDress(dressImage) {
+    document.getElementById('dress').src = dressImage;
+}
+
+function changeShoes(shoesImage) {
+    document.getElementById('shoes').src = shoesImage;
+}
