@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef9e4;
+    text-align: center;
+}
+
+.game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff8f0;
+    border-radius: 15px;
+}
+
+.doll-container {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+.doll-container img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#doll {
+    z-index: 1; /* Base layer */
+}
+
+#dress {
+    z-index: 2; /* Clothes go on top of the doll */
+}
+
+#shoes {
+    z-index: 3; /* Shoes on top of clothes */
+}
+
+.wardrobe {
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #f3b1c2;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f28094;
+}
